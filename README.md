@@ -88,4 +88,9 @@ Antes de iniciar, verifique se você possui os seguintes pré-requisitos instala
 | PUT    | /api/Book/Put     | Atualiza os dados de um livro.      |
 | DELETE | /api/Book/Delete/{id}| Deleta um livro pelo ID.         |
 
+## Ponto de atenção
+
+Dentro de BookController (ConsumeWebAPI) confira se Uri baseAddress = new Uri("https://localhost:7080/api"); está apontando para a porta https correta.
+
+Você pode conferir se a porta está correta acessando a pasta Properties dentro de CRUDWithWebApi, e acessando o arquivo launchSettings.json
 
