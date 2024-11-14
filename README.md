@@ -1,6 +1,6 @@
 # Livraria API
 
-Esta é uma API RESTful construída com ASP.NET Core para gerenciar uma biblioteca de livros. A aplicação permite realizar operações CRUD (Criar, Ler, Atualizar e Deletar) em um banco de dados SQL Server Developer Edition, utilizando o Entity Framework Core como ORM para acesso e manipulação dos dados. Além disso, a aplicação implementa o padrão MVC para consumir essa API RESTful através de views, permitindo uma interface de usuário amigável para realizar as operações de gerenciamento de livros.
+Esta é uma API RESTful construída com ASP.NET Core para gerenciar uma biblioteca de livros. A aplicação permite realizar operações CRUD (Criar, Ler, Atualizar e Deletar) em um banco de dados SQL Server Developer Edition, utilizando o Entity Framework Core como ORM para acesso e manipulação dos dados. Além disso, a aplicação implementa o padrão MVC para consumir essa API RESTful através de views, permitindo uma interface de usuário para realizar as operações de gerenciamento de livros.
 
 ## Tecnologias Utilizadas
 
