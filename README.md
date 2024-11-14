@@ -31,8 +31,8 @@ Antes de iniciar, verifique se você possui os seguintes pré-requisitos instala
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/livraria-api.git
-   cd livraria-api
+   git clone https://github.com/lcorsog/Livraria.net.git
+   cd Livraria.net
    ```
 
 2. **Configure o Banco de Dados**
