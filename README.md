@@ -116,10 +116,3 @@ curl -X PUT "https://localhost:5001/api/Book/Put" -H "Content-Type: application/
 curl -X DELETE "https://localhost:5001/api/Book/Delete/1"
 ```
 
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma _issue_ ou um _pull request_ com sugestões de melhorias ou correções.
-
----
-
-Esse README deve orientar os usuários sobre a configuração e uso da aplicação, desde a clonagem do repositório até o consumo dos endpoints da API.
