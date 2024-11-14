@@ -38,6 +38,7 @@ Antes de iniciar, verifique se você possui os seguintes pré-requisitos instala
 2. **Configure o Banco de Dados**
 
    - No SQL Server, crie um banco de dados chamado `LivrariaDb` ou qualquer outro nome de sua escolha.
+   - Encontre a string de conexão do seu banco de dados em Server Explorer, dentro de propriedades do banco conectado.
    - Atualize a string de conexão no arquivo `appsettings.json` para apontar para o banco de dados criado. Exemplo de string de conexão:
 
      ```json
