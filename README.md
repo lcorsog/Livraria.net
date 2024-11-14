@@ -88,31 +88,4 @@ Antes de iniciar, verifique se você possui os seguintes pré-requisitos instala
 | PUT    | /api/Book/Put     | Atualiza os dados de um livro.      |
 | DELETE | /api/Book/Delete/{id}| Deleta um livro pelo ID.         |
 
-## Exemplos de Requisições
-
-Aqui estão exemplos de como consumir cada um dos endpoints utilizando `curl`.
-
-### Criar um Livro
-
-```bash
-curl -X POST "https://localhost:5001/api/Book/Post" -H "Content-Type: application/json" -d "{\"Title\": \"Livro Exemplo\", \"Author\": \"Autor Exemplo\", \"PublicationYear\": 2023, \"Genre\": \"Ficção\"}"
-```
-
-### Consultar Todos os Livros
-
-```bash
-curl -X GET "https://localhost:5001/api/Book/Get"
-```
-
-### Atualizar um Livro
-
-```bash
-curl -X PUT "https://localhost:5001/api/Book/Put" -H "Content-Type: application/json" -d "{\"Id\": 1, \"Title\": \"Livro Atualizado\", \"Author\": \"Novo Autor\", \"PublicationYear\": 2024, \"Genre\": \"Não-ficção\"}"
-```
-
-### Deletar um Livro
-
-```bash
-curl -X DELETE "https://localhost:5001/api/Book/Delete/1"
-```
 
